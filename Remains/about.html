@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?
+family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,700&display=swap"
+ rel="stylesheet">
+ <script src="https://kit.fontawesome.com/26d4a64054.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png" class="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Ind.html">HOME</a></li>
+                    <li><a href="Course.html">OUR ARTISTS</a></li>
+                    <li><a href="Our Festival Histories.html">BLOG</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+      <h1> ABOUT US</h1>
+    </section>
+
+    <!-- about us content -->
+
+    <section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+        <h1>We are the worlds best record label</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem non ipsum, placeat deserunt sunt 
+            hic voluptas fuga nisi neque tempore odio voluptates consequatur quibusdam laboriosam, dolore dolorem, offi
+            ciis culpa provident. Lorem ipsum dolor sit amet consec tetur adipisicing elit. Id tempora quo fuga odio exerci
+            tationem  eligendi laudantium aspernatur totam cumque int quis nam est, ipsa labore eaque. Neque repudiandae  
+            </p>
+             <a href="" class="hero-btn red-btn" >EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="./Images/images (39).jpeg">
+        </div>
+    </div>
+        
+    </section>
+ 
+ <!-- footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit inventore facilis at unde
+           animi beatae error ab dolorum! <br> Corrupti fuga excepturi provident iure omnis placeat quis 
+           ducimus earum distinctio voluptatum.</p>
+        
+           <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedn"></i>
+           </div>
+           <p>Made by <i class="fa fa-heart-o"></i> Lit_Donniee</p>
+    </section>
+
+
+
+<!-- javascripts for toggle menu -->
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>
